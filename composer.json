@@ -1,0 +1,24 @@
+{
+    "name": "lvlup-dev/url",
+    "description": "Methods to work with URLs and text documents on the web.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LvlupDev\\Url\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Didier Sampaolo",
+            "email": "didier@lvlup.fr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LvlupDev\\Url\\UrlServiceProvider"
+            ]
+        }
+    }
+}
