@@ -1,5 +1,5 @@
 {
-    "name": "lvlup-dev/url",
+    "name": "lvlup-dev/laravel-url",
     "description": "Methods to work with URLs and text documents on the web.",
     "type": "library",
     "license": "MIT",

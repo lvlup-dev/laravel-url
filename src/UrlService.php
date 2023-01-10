@@ -2,11 +2,7 @@
 
 namespace LvlupDev\Url;
 
-use Carbon\CarbonInterval;
-use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Facade;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Facades\Storage;
 
 class UrlService extends Facade
 {
