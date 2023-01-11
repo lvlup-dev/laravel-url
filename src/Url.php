@@ -16,15 +16,12 @@ class Url
     private array $headers;
     private string $body;
 
-    public function __construct(string $uri)
+    public function fetch(string $uri): self
     {
         $this->uri = $uri;
         $this->cacheKey = md5("lvlup-dev/url/" . $this->uri);
         $this->cacheTtl = CarbonInterval::hour();
-    }
 
-    public function fetch(): Url
-    {
         return Cache::remember($this->cacheKey, $this->cacheTtl, function () {
             $this->fetchLive();
 

@@ -6,8 +6,9 @@ This package is design to help you work with external urls in your Laravel appli
 `composer require lvlup-dev/laravel-url`
 
 ## Usage
+
 ```php
- $url = \LvlupDev\Url\UrlService::fetch('https://mescadeaux.com/');
+ $url = \LvlupDev\Url\Url::fetch('https://mescadeaux.com/');
  $headers = $url->headers();
 ```
 
